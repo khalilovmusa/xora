@@ -1,11 +1,12 @@
 import './App.css'
+import Header from './components/molecules/Header'
 
 const App = () => {
 
   return (
-    <h1 className='text-3xl font-semibold underline'>
-      This is a test text
-    </h1>
+    <main className='overflow-hidden'>
+      <Header />
+    </main>
   )
 }
 
